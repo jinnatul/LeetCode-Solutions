@@ -1,3 +1,5 @@
+// Problem: https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/546
+
 const twoSum = function(nums, target) {
   for (let i = 0; i < nums.length; i++) {
     const pos = nums.findIndex((num, idx) => num === target - nums[i] && idx !== i);
